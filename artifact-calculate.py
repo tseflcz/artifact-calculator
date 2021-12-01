@@ -80,22 +80,22 @@ def main():
 
     maintag=artifact['mainTag']['name']
     if maintag=='attackPercentage':
-        totalscore=1.2*score['critical']+score['attack']+score['elementalMastery']+score['recharge']
+        totalscore=score['critical']+score['attack']+score['elementalMastery']+score['recharge']
     elif maintag=='defendPercentage':
-        totalscore=1.2*score['critical']+score['defend']+score['elementalMastery']+score['recharge']+0.5*score['attack']
+        totalscore=score['critical']+score['defend']+score['elementalMastery']+score['recharge']+0.5*score['attack']
     elif maintag=='lifePercentage':
-        totalscore=1.2*score['critical']+score['life']+score['elementalMastery']+score['recharge']+0.5*score['attack']
+        totalscore=score['critical']+score['life']+score['elementalMastery']+score['recharge']+0.5*score['attack']
     else:
         maintag=max(list(score.items())[0:3],key=lambda x:x[1])
         if maintag[1]!=0:
             if maintag[0]=='attack':
-                totalscore=1.2*score['critical']+score['attack']+score['elementalMastery']+score['recharge']
+                totalscore=score['critical']+score['attack']+score['elementalMastery']+score['recharge']
             if maintag[0]=='defend':
-                totalscore=1.2*score['critical']+score['defend']+score['elementalMastery']+score['recharge']+0.5*score['attack']
+                totalscore=score['critical']+score['defend']+score['elementalMastery']+score['recharge']+0.5*score['attack']
             if maintag[0]=='life':
-                totalscore=1.2*score['critical']+score['life']+score['elementalMastery']+score['recharge']+0.5*score['attack']
+                totalscore=score['critical']+score['life']+score['elementalMastery']+score['recharge']+0.5*score['attack']
         else:
-            totalscore=1.2*score['critical']+score['elementalMastery']+score['recharge']
+            totalscore=score['critical']+score['elementalMastery']+score['recharge']
     print(totalscore)
 
 
