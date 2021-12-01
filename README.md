@@ -1,4 +1,4 @@
-# artifact-calculate
+# artifact-calculator
 - calculate tags of artifact 
 - 计算单个圣遗物词条数
 ## 简介
