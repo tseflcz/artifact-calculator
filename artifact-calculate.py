@@ -158,28 +158,28 @@ tk.Label(root, text='主词条作为判断条件，不计算分数').grid(row=1,
 tk.Label(root, text='请选择副词条1').grid(row=2, column=0, padx=5, pady=5)
 tag1box=ttk.Combobox(root, textvariable=normaltag1)
 tag1box.grid(row=2, column=1, padx=5, pady=5)
-tag1box['values']=['暴击率','暴击伤害','固定生命值','固定攻击力','%攻击力','%生命值','%防御力','元素精通','元素充能效率']
+tag1box['values']=['暴击率','暴击伤害','固定生命值','固定攻击力','固定防御力','%攻击力','%生命值','%防御力','元素精通','元素充能效率']
 tag1box['state']="readonly"
 tk.Entry(root, textvariable=tag1value).grid(row=2, column=2, padx=5, pady=5)
 
 tk.Label(root, text='请选择副词条2').grid(row=3, column=0, padx=5, pady=5)
 tag2box=ttk.Combobox(root, textvariable=normaltag2)
 tag2box.grid(row=3, column=1, padx=5, pady=5)
-tag2box['values']=['暴击率','暴击伤害','固定生命值','固定攻击力','%攻击力','%生命值','%防御力','元素精通','元素充能效率']
+tag2box['values']=['暴击率','暴击伤害','固定生命值','固定攻击力','固定防御力','%攻击力','%生命值','%防御力','元素精通','元素充能效率']
 tag2box['state']="readonly"
 tk.Entry(root, textvariable=tag2value).grid(row=3, column=2, padx=5, pady=5)
 
 tk.Label(root, text='请选择副词条3').grid(row=4, column=0, padx=5, pady=5)
 tag3box=ttk.Combobox(root, textvariable=normaltag3)
 tag3box.grid(row=4, column=1, padx=5, pady=5)
-tag3box['values']=['暴击率','暴击伤害','固定生命值','固定攻击力','%攻击力','%生命值','%防御力','元素精通','元素充能效率']
+tag3box['values']=['暴击率','暴击伤害','固定生命值','固定攻击力','固定防御力','%攻击力','%生命值','%防御力','元素精通','元素充能效率']
 tag3box['state']="readonly"
 tk.Entry(root, textvariable=tag3value).grid(row=4, column=2, padx=5, pady=5)
 
 tk.Label(root, text='请选择副词条4').grid(row=5, column=0, padx=5, pady=5)
 tag4box=ttk.Combobox(root, textvariable=normaltag4)
 tag4box.grid(row=5, column=1, padx=5, pady=5)
-tag4box['values']=['暴击率','暴击伤害','固定生命值','固定攻击力','%攻击力','%生命值','%防御力','元素精通','元素充能效率']
+tag4box['values']=['暴击率','暴击伤害','固定生命值','固定攻击力','固定防御力','%攻击力','%生命值','%防御力','元素精通','元素充能效率']
 tag4box['state']="readonly"
 tk.Entry(root, textvariable=tag4value).grid(row=5, column=2, padx=5, pady=5)
 
