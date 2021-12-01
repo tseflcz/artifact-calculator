@@ -218,7 +218,7 @@ tk.Label(root, text='百分比数值请不要输入百分号').grid(row=6, colum
 tk.Label(root, text='如3.9%暴击率输入3.9').grid(row=6, column=2, padx=5, pady=5)
 tk.Label(root, text='灵梦丶冰笙 制作').grid(row=7, column=3, padx=5, pady=5)
 tk.Label(root, text='欢迎大佬提出建议和意见').grid(row=7, column=4, padx=5, pady=5)
-tk.Label(root, text='github地址').grid(row=7, column=5, padx=5, pady=5)
-tk.Label(root, text='如有问题请至github提交').grid(row=7, column=6, padx=5, pady=5)
+tk.Label(root, text='计算公式详见').grid(row=7, column=5, padx=5, pady=5)
+tk.Label(root, text='github.com/tseflcz/artifact-calculate').grid(row=7, column=6, padx=5, pady=5)
 
 root.mainloop()
